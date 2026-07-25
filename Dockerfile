@@ -1,4 +1,4 @@
-FROM ruby:2.3.0
+FROM ruby:4.0.6
 
 RUN apt-get update && apt-get install -y nodejs mysql-client --no-install-recommends && rm -rf /var/lib/apt/lists/*
 
